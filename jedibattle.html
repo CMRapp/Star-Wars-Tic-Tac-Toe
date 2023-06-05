@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMR Tic Tac Toe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="jedibattle.css">
+</head>
+<body>
+
+    <!-- Website Header -->
+    <header class="container text-center">
+        <h1 class="text-warning display-1">Jedi Battle</h1>
+        <h3 class="text-warning">an exercise in strategy</h3>
+        <div id="player-turn" class="text-light">Yoda's Turn</div>
+    </header>
+
+    <main>
+    <!-- MODAL -->
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="exampleModalLabel">Project Notes</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>This project is a re-work of a project I created in C++ 2009 as part of my final project when working toward my AS Degree. (It was considerably easier to create in JavaScript!). 
+            Unfortunately my computer that had the final suite of Star Wars themed games crashed and I ho longer have the executable files. I did, however,
+            print out the code!</p>
+          <h4>Game Play</h4>  
+          <p></p>Jedi Battle is simply Tic Tac Toe. The center grid is reminiscent of Luke's targeting computer in his X-wing when he blew up the Death Star. Simply click on any square to mark it.
+          X = Yoda and O = Vader. The current player's turn is indicated at the top of the screen. The results of the game will appear after a winner or draw is declared.</p>
+          <p><em><strong>I truly hope anyone viewing this project gets a smile!</strong></em></p>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Space Background -->
+    <div id="space">
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+    </div>
+
+    <!-- Playing Grid -->
+    <div class = "container my-3 px-3" id="playing-grid">
+        <!-- use a table of buttons to make grid -->
+        <table class=".text-center text-light">
+            <tr>
+                <td class="play-sq" id="1"></td>
+                <td class="play-sq" id="2"></td>
+                <td class="play-sq" id="3"></td>
+            </tr>
+
+            <tr>
+                <td class="play-sq" id="4"></td>
+                <td class="play-sq" id="5"></td>
+                <td class="play-sq" id="6"></td>
+            </tr>
+
+            <tr>
+                <td class="play-sq" id="7"></td>
+                <td class="play-sq" id="8"></td>
+                <td class="play-sq" id="9"></td>
+            </tr>
+        </table>                
+    </div>  
+        
+    <div class="row my-3 px-3 hidden" id="info-box">
+        <div class="col">
+            <h2 id="info-box-text"></h2>
+            <button type="submit" class="btn btn-warning justify-content-center my-3" id="play-again">Play Again</button>    
+        </div>
+    </div>
+
+               
+    
+</main>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid text-light h-80 py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>&copy 2023 Christian M Rapp | <a href="https://www.cmrwebstudio.com" target="_blank" class="text-decoration-none">CMR Web Studio</a>
+                </div>
+                <div class="col-sm-4">
+                <p><small class="text-light">Background Animation: Pure CSS Starfield by <a href="https://codepen.io/keithclark/pen/DQdKbg" target="_blank">Keith Clark</a></small></p>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <img class="float-end footer-logo"  height=45px src="images\cmr_sig5.png"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p><button type="button" class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">PROJECT NOTES & GAME PLAY</button></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="jedibattle.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>
