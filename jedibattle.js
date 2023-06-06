@@ -11,14 +11,14 @@ class Player {
 }
 
 //create players
-var p1 = new Player('yoda', '../images/yoda-145.png');
-var p2 = new Player('vader', '../images/vader-145.png');
+var p1 = new Player('yoda', 'images/yoda-145.png');
+var p2 = new Player('vader', 'images/vader-145.png');
 
 //TODO: get elements from DOM get extra areas once created
-const yodaSound = new Audio('../audio/yodalaughing.wav');
-const vaderSound = new Audio('../audio/alltooeasy.wav');
-const clickSound = new Audio('../audio/lightsaber-clash.mp3');
-const trySound = new Audio('../audio/yoda_try.wav');
+const yodaSound = new Audio('audio/yodalaughing.wav');
+const vaderSound = new Audio('audio/alltooeasy.wav');
+const clickSound = new Audio('audio/lightsaber-clash.mp3');
+const trySound = new Audio('audio/yoda_try.wav');
 
 //WORKS
 //display player images - takes image url and ID of square to display image in
