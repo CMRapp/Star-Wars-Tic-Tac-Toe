@@ -6,7 +6,7 @@ body {
 /* format playing grid elements */
 table {
   margin: 0 auto;
-  cursor:crosshair;
+  cursor: url('https://cur.cursors-4u.net/others/oth-1/oth24.cur'), auto !important; /* End https://www.cursors-4u.com */
 }
 
 
@@ -52,7 +52,6 @@ table {
   color:goldenrod;
   border: 2px solid goldenrod;
   width:31.2%;
-  margin:20px;
   margin: 0 auto;
 }
 
@@ -70,7 +69,7 @@ table {
 }
 
 /*-- TYPOGRAPHY -- */
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family:'StarJedi';
 }
 
