@@ -69,7 +69,9 @@ var playSqs = document.getElementsByClassName('play-sq');
 for(let i=0; i<playSqs.length; i++){
     playSqs[i].addEventListener('click', function() {
     var id = this.id;
-    clickSound.play();
+    if (!win) {
+        clickSound.play();
+    }
     
     //place player image
     if(!win && this.innerHTML === ""){
