@@ -8,7 +8,7 @@ represented by Vader. There are even sounds that are played. I hope you enjoy th
 <!-- Screenshots -->
 ## :camera: Screenshots
 <div align="center"> 
-  <img src="https://cmrwebstudio.com/screenshots/jedi-battle.png" alt="screenshot" />
+  <img src="https://cmrwebstudio.com/screenshots/jedi-battleb.png" alt="screenshot" />
 </div>
 
 <!-- TechStack -->
