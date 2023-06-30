@@ -12,3 +12,15 @@ If you download the files, you will need to install Bootstrap and JQuery to run 
 <div align="center"> 
   <img src="https://cmrwebstudio.com/screenshots/jedi-battle.png" alt="screenshot" />
 </div>
+
+<!-- TechStack -->
+### :keyboard: Tech Used
+
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://jquery.com/">jQuery</a></li>
+    <li><a href="[https://reactjs.org/](https://getbootstrap.com/)">BootStrap</a></li>
+  </ul>
+</details>
