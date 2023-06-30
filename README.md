@@ -32,7 +32,7 @@ If you download the files, you will need to install Bootstrap and JQuery to run 
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
+  git@github.com:CMRapp/Star-Wars-Tic-Tac-Toe.git
 ```
 
 Go to the project directory
@@ -44,13 +44,10 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn install
+  npm i bootstrap
+  npm i jquery
 ```
 
-Start the server
-
-```bash
-  yarn start
-```
+Open the jedibattle.html file in your default browser
 
   
