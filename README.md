@@ -48,4 +48,11 @@ Install dependencies
 
 Open the jedibattle.html file in your default browser
 
+<!-- Contact -->
+## :handshake: Contact
+
+Christian M Rapp - christian@cmrwebstudio.com
+
+Project Link: <a href="https://videos.cmrwebstudio.com/projects/jedibattle.html" target="_blank">https://videos.cmrwebstudio.com/projects/jedibattle.html</a>
+
   
