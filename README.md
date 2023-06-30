@@ -8,5 +8,5 @@ represented by Vader. There are even sounds that are played. I hope you enjoy th
 If you download the files, you will need to install Bootstrap and JQuery to run the program.
 
 <div align="center"> 
-  <img src="https://cmrwebstudio.com/screenshots/jedi-battle.png alt="screenshot" />
+  <img src="https://cmrwebstudio.com/screenshots/jedi-battle.png" alt="screenshot" />
 </div>
