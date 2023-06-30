@@ -1,4 +1,4 @@
-# FE-Week11-Tic-Tac-Toe
+# Star Wars Tic-Tac-Toe
 Repository of Promineo Tech FE Developer Course Week 11 Programming. This week focuses on using JavaScript & Jquery. This is a Tic-Tac-Toe game with a Star Wars theme.
 
 # :information_source: About This Project
