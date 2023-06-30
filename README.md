@@ -15,12 +15,42 @@ If you download the files, you will need to install Bootstrap and JQuery to run 
 
 <!-- TechStack -->
 ### :keyboard: Tech Used
+  - <a href="https://www.javascript.com/">JavaScript</a>
+  - <a href="https://jquery.com/">jQuery</a>
+  - <a href="https://getbootstrap.com/">BootStrap</a>
 
-<details>
-  <summary>Front End</summary>
-  <ul>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
-    <li><a href="https://jquery.com/">jQuery</a></li>
-    <li><a href="https://reactjs.org/](https://getbootstrap.com/)">BootStrap</a></li>
-  </ul>
-</details>
+<!-- Features -->
+### 🌌 Features
+- Custom lightsaber pointer over playfield
+- Lightsaber sound on mouse click
+- Pure CSS animated starfield background
+- Custom Star Wars Fonts
+
+<!-- Run Locally -->
+### :running: Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Louis3797/awesome-readme-template.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  yarn install
+```
+
+Start the server
+
+```bash
+  yarn start
+```
+
+  
