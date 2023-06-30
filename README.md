@@ -8,12 +8,12 @@ represented by Vader. There are even sounds that are played. I hope you enjoy th
 <!-- Screenshots -->
 ## :camera: Screenshots
 <div align="center"> 
-  <img src="https://cmrwebstudio.com/screenshots/jedi-battle.png" alt="screenshot" />
+  <img src="https://cmrwebstudio.com/screenshots/jedi-battle.png" alt="screenshot" /><br>
   <caption>Screenshot of gameplay</caption>
 </div>
-
+<br/>
 <div align="center"> 
-  <img src="https://cmrwebstudio.com/screenshots/jedi-battle-modal.png" alt="screenshot" />
+  <img src="https://cmrwebstudio.com/screenshots/jedi-battle-modal.png" alt="screenshot" /><br>
   <caption>Screenshot of modal box</caption>
 </div>
 
@@ -29,6 +29,7 @@ represented by Vader. There are even sounds that are played. I hope you enjoy th
 - Lightsaber sound on mouse click
 - Pure CSS animated starfield background
 - Custom Star Wars Fonts
+- Modal box for game play instructions and program notes
 
 <!-- Run Locally -->
 ### :running: Run Locally
