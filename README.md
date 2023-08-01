@@ -5,8 +5,10 @@ Repository of Promineo Tech FE Developer Course Week 11 Programming. This week f
 Jedi Battle is a Star Wars themed Tic Tac Toe game based on a program I originally created in C++ is 2009. Instead of traditional Xs & Os, I've used images. The Xs are represented by Yoda and the Os are 
 represented by Vader. There are even sounds that are played. I hope you enjoy this project!
 
+## :arrow_forward: This project is live on the internet! Visit <a href="https://videos.cmrwebstudio.com/projects/jedibattle.html">https://videos.cmrwebstudio.com/projects/jedibattle.html</a> to play it live!
+
 <!-- Screenshots -->
-## :camera: Screenshots
+### :camera: Screenshots
 <div align="center"> 
   <img src="https://cmrwebstudio.com/screenshots/jedi-battle.png" alt="screenshot" /><br>
   <caption>Screenshot of gameplay</caption>
