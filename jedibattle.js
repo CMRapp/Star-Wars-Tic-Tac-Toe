@@ -20,6 +20,12 @@ const vaderSound = new Audio('audio/alltooeasy.wav');
 const clickSound = new Audio('audio/lightsaber-clash.mp3');
 const trySound = new Audio('audio/yoda_try.wav');
 
+//Set volume for audio elements
+yodaSound.volume = 0.2;
+vaderSound.volume = 0.2;
+clickSound.volume = 0.2;
+trySound.volume = 0.5;
+
 //WORKS
 //display player images - takes image url and ID of square to display image in
 function displayPlayerImage(url, square, player){
